@@ -11,4 +11,34 @@ body {
 a {
   text-decoration: none;  
   
+} 
+.textarea {
+  background-color: transparent;
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+  font: 1.5em Georgia, serif;
+  /* border: 1px solid black;
+   */
+   resize: none;
+   border: none;
+  display: block;
+  margin: 0 auto;
+
+ cursor: none;
+
+}
+.textarea::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+.textarea::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+.textarea::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 5px;
 }
