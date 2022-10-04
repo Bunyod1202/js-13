@@ -59,9 +59,9 @@ function adds(arr) {
 
   arr.forEach(function (item ) {
     let items = document.createElement("li")
-    let name = document.createElement("textarea")
+    let name = document.createElement("p")
     let number = document.createElement("span")
-    let Rships = document.createElement("textarea")
+    let Rships = document.createElement("p")
     let phone = document.createElement("a")
     let dell = document.createElement("button")
     
